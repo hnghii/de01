@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="match_parent"
+        android:background="#E6B768"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtmand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ma xe: "
+            android:textSize="24sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvCCCD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ten xe: 1"
+            android:textSize="24sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvTen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="gia xe: "
+            android:textSize="30sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvNgay1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="hang xe: "
+            android:textSize="20sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvNgay2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="trang thai:"
+            android:textSize="30sp"
+            android:textStyle="bold">
+        </TextView>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+
+
+            <ImageView
+                android:id="@+id/ivDel"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_delete">
+            </ImageView>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
